@@ -1,0 +1,48 @@
+/*------------------navigator---------------------*/
+.navigatorHolder{
+	width: 100%;	height: 42px;
+	background: #555;
+	display: block;
+	position: fixed;
+	z-index: 100;
+	opacity: 0.9;
+}
+.navigatorList{
+	width: 70%;
+	margin: 1px auto;
+	display: block;
+}
+.navigatorItem{
+	display: block;
+	float: left;
+}
+.navigatorItem a{
+	height: 37px;
+	margin-left: 35px;
+	margin-right: 35px;
+	color: #fff;
+	text-decoration: none;
+	line-height: 37px;
+	cursor: pointer;
+}
+#logo{
+	width: 170px;	height: 35px;
+	margin-top: 4px;
+	margin-left: 40px;
+	background: url(../../img/detail/logo.png);
+	background-size: 100% 100%;
+}
+.logo_a{
+    width:170px !important; height:35px !important;
+    display:block;
+}
+/*------------------navigator  active---------------------*/
+.navigator_slider{
+	width: 75px;	height: 0px;
+	left: 435px;	bottom: 0px;
+	position: absolute;
+	border: solid #fff;
+	border-radius: 2px;
+	z-index: 110;
+	transition: 0.1s linear;
+}

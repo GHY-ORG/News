@@ -1,0 +1,135 @@
+/*------------------button---------------------*/
+.button{
+	width: 100px;	height: 100px;
+	position: relative;
+	top: 50%;
+	display: block;
+	cursor: pointer;
+}
+.button-left{
+	left: 100px;
+	z-index: 100;
+	float:left;
+}
+.button-right{
+	right: 80px;
+	z-index: 100;
+	float: right;
+}
+.button p{
+	font-size: 80px;
+	font-family: Batang;
+	font-weight: bold;
+	color:#fff;
+}
+/*---------------------------hover----------------------------*/
+.button-left:hover{
+	transition: all 0.2s linear;
+	transform:translate(-10px,0); 
+}
+.button-right:hover{
+  transition: all 0.2s linear;
+  transform:translate(10px,0); 
+}
+.button:hover >p{
+  animation: neon2 1s ease-in-out infinite alternate; 
+  -webkit-animation: neon2 1s ease-in-out infinite alternate;   /*Safari&Chrome*/
+  -moz-animation: neon2 1s ease-in-out infinite alternate;      /*Firefox*/
+  -o-animation: neon2 1s ease-in-out infinite alternate;        /*Opera*/
+}
+/*---------------------------keyframes to be continued....------------------------*/
+/*--neon2--*/
+@keyframes neon2{
+  from {
+    text-shadow: 0 0 10px #fff,
+               0 0 20px  #fff,
+               0 0 30px  #fff,
+               0 0 40px  #fff,
+               0 0 70px  #fff,
+               0 0 80px  #fff,
+               0 0 100px #fff,
+               0 0 150px #fff;
+  }
+  to {
+    text-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 15px #fff,
+               0 0 20px #fff,
+               0 0 35px #fff,
+               0 0 40px #fff,
+               0 0 50px #fff,
+               0 0 75px #fff;
+  }
+}
+@-webkit-keyframes neon2 {            /*Safari&Chrome*/          
+  from {
+    text-shadow: 0 0 10px #fff,
+               0 0 20px  #fff,
+               0 0 30px  #fff,
+               0 0 40px  #fff,
+               0 0 70px  #fff,
+               0 0 80px  #fff,
+               0 0 100px #fff,
+               0 0 150px #fff;
+  }
+  to {
+    text-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 15px #fff,
+               0 0 20px #fff,
+               0 0 35px #fff,
+               0 0 40px #fff,
+               0 0 50px #fff,
+               0 0 75px #fff;
+  }
+}
+@-moz-keyframes neon2 {               /*Firefox*/   
+  from {
+    text-shadow: 0 0 10px #fff,
+               0 0 20px  #fff,
+               0 0 30px  #fff,
+               0 0 40px  #fff,
+               0 0 70px  #fff,
+               0 0 80px  #fff,
+               0 0 100px #fff,
+               0 0 150px #fff;
+  }
+  to {
+    text-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 15px #fff,
+               0 0 20px #fff,
+               0 0 35px #fff,
+               0 0 40px #fff,
+               0 0 50px #fff,
+               0 0 75px #fff;
+  }
+}
+@-o-keyframes neon2 {                /*Opera*/   
+  from {
+    text-shadow: 0 0 10px #fff,
+               0 0 20px  #fff,
+               0 0 30px  #fff,
+               0 0 40px  #fff,
+               0 0 70px  #fff,
+               0 0 80px  #fff,
+               0 0 100px #fff,
+               0 0 150px #fff;
+  }
+  to {
+    text-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 15px #fff,
+               0 0 20px #fff,
+               0 0 35px #fff,
+               0 0 40px #fff,
+               0 0 50px #fff,
+               0 0 75px #fff;
+  }
+}
+/*
+@keyframes myfirst{}
+@-moz-keyframes myfirst{}
+@-webkit-keyframes myfirst{}
+@-o-keyframes myfirst{}
+*/

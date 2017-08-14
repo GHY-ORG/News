@@ -1,0 +1,64 @@
+/*------------------button---------------------*/
+.button{
+	width: 78px;	height: 78px;
+	position: relative;
+	display: block;
+	cursor: pointer;
+}
+.button-left{
+	top: 116px;
+	left: 22px;
+	float: left;
+	z-index: 1;
+}
+.button-right{
+	top: 113px;
+	right: 30px;
+	float: right;
+	z-index: 1;
+}
+.btn-g-left{
+    top:46px;
+}
+/*---------------------------------------------*/
+.btn-r-y{
+	background: url(../../img/detail/btn-r-1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.btn-r-r{
+	background: url(../../img/detail/btn-r-2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.btn-r-g{
+	background: url(../../img/detail/btn-r-3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.btn-r-b{
+	background: url(../../img/detail/btn-r-4.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/*---------------------------------------------*/
+.btn-l-r{
+	background: url(../../img/detail/btn-l-1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.btn-l-g{
+	background: url(../../img/detail/btn-l-2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.btn-l-b{
+	background: url(../../img/detail/btn-l-3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.btn-l-gr{
+	background: url(../../img/detail/btn-l-4.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}

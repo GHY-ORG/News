@@ -1,0 +1,574 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>2017新生专题</title>
+    <link rel="stylesheet" href="css/detail/reset.css">
+    <link rel="stylesheet" href="css/detail/detail.css">
+    <link rel="stylesheet" href="css/detail/navigator.css">
+    <link rel="stylesheet" href="css/detail/button_left_right.css">
+    <link rel="stylesheet" href="css/detail/autoScroll.css">
+    <link rel="stylesheet" href="css/detail/map.css">
+</head>
+
+<body>
+    <form id="BaseForm" runat="server">
+        <!-- navigator -->
+        <div class="navigatorHolder">
+            <ul class="navigatorList">
+                <li class="navigatorItem" id="logo">
+                    <a class="logo_a" href="http://www.ghy.cn/" title="光华园，下载你的大学生活" target="_blank"></a>
+                </li>
+                <li class="navigatorItem"><a href="index.html">回到首页</a></li>
+                <li class="navigatorItem navigator_On" data-index="1"><a href="#section1">初遇西财</a></li>
+                <li class="navigatorItem" data-index="2"><a href="#section2">入学报到</a></li>
+                <li class="navigatorItem" data-index="3"><a href="#section3">印象西财</a></li>
+                <li class="navigatorItem" data-index="4"><a href="#section4">乐活风赏</a></li>
+                <li class="navigatorItem" data-index="5"><a href="#section5">加入我们</a></li>
+            </ul>
+            <div class="navigator_slider"></div>
+        </div>
+        <!-- screen -->
+        <div class="bannerHolder">
+            <ul class="bannerList">
+                <li class="banner section1 section_on">
+                    <ul class="menuLeft color1">
+                        <li class="mtitle first-title-on-1" title-m-list="1">
+                            <img class="img1" src="./img/detail/yellow-1.png" alt="">
+                            <span>校园地图</span>
+                            <div class="triangle triangleOn"></div>
+                        </li>
+                        <li class="mtitle" title-m-list="2">
+                            <img class="img1" src="./img/detail/yellow-2.png" alt="">
+                            <span>宣传视频</span>
+                            <div class="triangle"></div>
+                        </li>
+                        <li class="mtitle" title-m-list="3">
+                            <img class="img1" src="./img/detail/yellow-2.png" alt="">
+                            <span>国际宣传片</span>
+                            <div class="triangle"></div>
+                        </li>
+                        <li class="mtitle" title-m-list="4">
+                            <a href="./ebook.docx">
+                                <img class="img1" src="./img/detail/green_3.png" alt="">
+                                <span>下载电子版</span>
+                                <div class="triangle"></div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="content-panel content1">
+                        <li class="content-list">
+                            <ul>
+                                <li class="contentItem contentItem_on">
+                                    <img src="img/detail/map.png" alt="" style="margin-top: 40px">
+                                </li>
+                                <li class="contentItem">
+                                    <embed src="http://player.youku.com/player.php/sid/XNzI3NjEyOTky/v.swf" allowfullscreen="true" quality="high" align="middle" allowscriptaccess="always" type="application/x-shockwave-flash"></embed>
+                                </li>
+                                <li class="contentItem">
+                                    <video src="西南财经大学国际宣传视频.mp4" style="width:95%" controls="controls"></video>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="menuRight">
+                        <div class="cutline"></div>
+                        <div class="recommand-title recommand-title-1" style="visibility: hidden;">推荐阅读</div>
+                        <div class="pic-panel">
+                            <!-- <div class="pic-box">
+                            <div class="pic-item">1</div>
+                            <div class="pic-item">2</div>
+                            <div class="pic-item">3</div>
+                        </div>
+                        <div class="pic-control-holder">
+                            <ul class="pic-control">
+                                <li class="active" data-index="0"></li>
+                                <li data-index="1"></li>
+                                <li data-index="2"></li>
+                            </ul>
+                            <div class="title-panel">
+                                <ul class="title-list">
+                                    <li>title1</li>
+                                    <li>title2</li>
+                                    <li>title3</li>
+                                </ul>
+                            </div>
+                        </div> -->
+                        </div>
+                        <div class="button button-right btn-r-y" btn-lr-index="5"></div>
+                        <div class="newMessageBox">
+                            <div class="new">
+                                <img src="./img/detail/new1.png" alt="">
+                                <p style="text-align:center;">19299509</p>
+                            </div>
+                            <div class="new">
+                                <img src="./img/detail/new2.png" alt="" style="margin-top: 10px">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="banner section2">
+                    <ul class="menuLeft  menuLeft2 color2">
+                        <li class="mtitle first-title-on-2" title-m-list="1">
+                            <img class="img2" src="./img/detail/red_1.png" alt="">
+                            <span>入学准备</span>
+                            <div class="triangle triangleOn"></div>
+                        </li>
+                        <li class="mtitle" title-m-list="2">
+                            <img class="img2" src="./img/detail/red_2.png" alt="">
+                            <span>报到须知</span>
+                            <div class="triangle"></div>
+                        </li>
+                        <li>
+                            <a href="./ebook.docx">
+                            <img class="img1" src="./img/detail/green_3.png" alt="">
+                            <span>下载电子版</span>
+                            <div class="triangle"></div>
+                        </a>
+                        </li>
+                        <div class="button button-left btn-l-r" btn-lr-index="1"></div>
+                    </ul>
+                    <ul class="article-list-holder">
+                        <li class="article-list-on article-list">
+                            <div class="article-list-title article-list-title-2">文章列表</div>
+                            <ul class="article-list-item">
+                                <li class="article-list-title-on" title-a-index="1">1. 必备物品</li>
+                                <li title-a-index="2">2. 宾馆住宿</li>
+                                <li title-a-index="3">3. 到校方式</li>
+                                <li title-a-index="4">4. 入学考试</li>
+                                <li title-a-index="5">5. 心理调节</li>
+                            </ul>
+                        </li>
+                        <li class="article-list">
+                            <div class="article-list-title article-list-title-2">文章列表</div>
+                            <ul class="article-list-item">
+                                <li class="article-list-title-on" title-a-index="1">1. 报道流程</li>
+                                <li title-a-index="2">2. 寝室情况</li>
+                                <li title-a-index="3">3. 开学体检</li>
+                                <li title-a-index="4">4. 网络服务</li>
+                                <li title-a-index="5">5. 校园卡使用</li>
+                                <li title-a-index="6">6. 选课指南</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="content-panel content2">
+                        <div class="content-list-on content-list">
+                            <div class="word-list">
+                                <asp:DropDownList ID="InfoList_test11_Parameter" Visible="False" runat="server">
+                                    <asp:ListItem Value="BoardID">70</asp:ListItem>
+                                    <asp:ListItem Value="Class1ID">6947</asp:ListItem>
+                                    <asp:ListItem Value="Class2ID">6950</asp:ListItem>
+                                    <asp:ListItem Value="Class3ID">0</asp:ListItem>
+                                    <asp:ListItem Value="InfoCount">5</asp:ListItem>
+                                    <asp:ListItem Value="OrderItem">InfoID</asp:ListItem>
+                                    <asp:ListItem Value="Order">asc</asp:ListItem>
+                                </asp:DropDownList>
+                                <asp:Repeater ID="InfoList_test11" runat="server">
+                                    <ItemTemplate>
+                                        <div class="contentItem">
+                                            <%# Eval("Content") %>
+                                        </div>
+                                    </ItemTemplate>
+                                </asp:Repeater>
+                            </div>
+                        </div>
+                        <div class="content-list">
+                            <div class="word-list">
+                                <asp:DropDownList ID="InfoList_test12_Parameter" Visible="False" runat="server">
+                                    <asp:ListItem Value="BoardID">70</asp:ListItem>
+                                    <asp:ListItem Value="Class1ID">6947</asp:ListItem>
+                                    <asp:ListItem Value="Class2ID">6951</asp:ListItem>
+                                    <asp:ListItem Value="Class3ID">0</asp:ListItem>
+                                    <asp:ListItem Value="InfoCount">6</asp:ListItem>
+                                    <asp:ListItem Value="OrderItem">InfoID</asp:ListItem>
+                                    <asp:ListItem Value="Order">asc</asp:ListItem>
+                                </asp:DropDownList>
+                                <asp:Repeater ID="InfoList_test12" runat="server">
+                                    <ItemTemplate>
+                                        <div class="contentItem">
+                                            <%# Eval("Content") %>
+                                        </div>
+                                    </ItemTemplate>
+                                </asp:Repeater>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menuRight">
+                        <div class="cutline"></div>
+                        <div class="recommand-title recommand-title-2">推荐阅读</div>
+                        <div class="pic-panel">
+                            <div class="pic-box">
+                                <div class="pic-item">
+                                    <a href="http://ghy.cn/special/201705wanghongc/" target="_blank"><img src="./img/detail/red-auto-1.jpg" alt=""></a>
+                                </div>
+                                <div class="pic-item">
+                                    <a href="http://www.ghy.swufe.edu.cn/special/2016liuxue/" target="_blank"><img src="./img/detail/red-auto-2.jpg" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="pic-control-holder">
+                                <ul class="pic-control">
+                                    <li class="active" data-index="0"></li>
+                                    <li data-index="1"></li>
+                                </ul>
+                                <div class="title-panel">
+                                    <ul class="title-list">
+                                        <li><a href="http://ghy.cn/special/201705wanghongc/">西财网红你红谁？</a></li>
+                                        <li><a href="http://www.ghy.swufe.edu.cn/special/2016liuxue/">毕业之后 将归何方</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="button button-right btn-r-r" btn-lr-index="6"></div>
+                        <div class="newMessageBox">
+                            <div class="new">
+                                <img src="./img/detail/new1.png" alt="">
+                                <p style="text-align:center;">19299509</p>
+                            </div>
+                            <div class="new">
+                                <img src="./img/detail/new2.png" alt="" style="margin-top: 10px">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="banner section3">
+                    <ul class="menuLeft color3">
+                        <li class="mtitle first-title-on-3" title-m-list="1">
+                            <img class="img2" src="./img/detail/green_1.png" alt="">
+                            <span>校园文化</span>
+                            <div class="triangle triangleOn"></div>
+                        </li>
+                        <li class="mtitle" title-m-list="2">
+                            <img class="img2" src="./img/detail/green_2.png" alt="">
+                            <span>学业指导</span>
+                            <div class="triangle"></div>
+                        </li>
+                        <li>
+                            <a href="./ebook.docx">
+                            <img class="img1" src="./img/detail/green_3.png" alt="">
+                            <span>下载电子版</span>
+                            <div class="triangle"></div>
+                        </a>
+                        </li>
+                        <div class="button button-left btn-l-g" btn-lr-index="2"></div>
+                    </ul>
+                    <ul class="article-list-holder">
+                        <li class="article-list-on article-list">
+                            <div class="article-list-title article-list-title-3">文章列表</div>
+                            <ul class="article-list-item">
+                                <li class="article-list-title-on" title-a-index="1">1. 学校概况</li>
+                                <li title-a-index="2">2. 院系设置</li>
+                                <li title-a-index="3">3. 校史沿革</li>
+                                <li title-a-index="4">4. 博物馆</li>
+                                <li title-a-index="5">5. 学生会</li>
+                                <li title-a-index="6" style="height:44px;">6. 校园媒体及党宣组织</li>
+                                <li title-a-index="7">7. 校内比赛</li>
+                                <li title-a-index="8">8. 国内大赛</li>
+                                <li title-a-index="9">9. 国际大赛</li>
+                                <li title-a-index="10">10. 学术思想类</li>
+                                <li title-a-index="11">11. 文化艺术类</li>
+                                <li title-a-index="12">12. 体育健身类</li>
+                                <li title-a-index="13">13. 实践交流类</li>
+                            </ul>
+                        </li>
+                        <li class="article-list">
+                            <div class="article-list-title article-list-title-3">文章列表</div>
+                            <ul class="article-list-item">
+                                <li class="article-list-title-on" title-a-index="1">1. 西财词典</li>
+                                <li title-a-index="2">2. 大学学习</li>
+                                <li title-a-index="3">3. 考试贴士</li>
+                                <li title-a-index="4">4. 自习场所</li>
+                                <li title-a-index="5">5. 专业转换</li>
+                                <li title-a-index="6">6. 未来选择</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="content-panel content2">
+                        <div class="content-list-on content-list">
+                            <div class="word-list">
+                                <asp:DropDownList ID="InfoList_test21_Parameter" Visible="False" runat="server">
+                                    <asp:ListItem Value="BoardID">70</asp:ListItem>
+                                    <asp:ListItem Value="Class1ID">6948</asp:ListItem>
+                                    <asp:ListItem Value="Class2ID">6952</asp:ListItem>
+                                    <asp:ListItem Value="Class3ID">0</asp:ListItem>
+                                    <asp:ListItem Value="InfoCount">13</asp:ListItem>
+                                    <asp:ListItem Value="OrderItem">InfoID</asp:ListItem>
+                                    <asp:ListItem Value="Order">asc</asp:ListItem>
+                                </asp:DropDownList>
+                                <asp:Repeater ID="InfoList_test21" runat="server">
+                                    <ItemTemplate>
+                                        <div class="contentItem">
+                                            <%# Eval("Content") %>
+                                        </div>
+                                    </ItemTemplate>
+                                </asp:Repeater>
+                            </div>
+                        </div>
+                        <div class="content-list">
+                            <div class="word-list">
+                                <asp:DropDownList ID="InfoList_test22_Parameter" Visible="False" runat="server">
+                                    <asp:ListItem Value="BoardID">70</asp:ListItem>
+                                    <asp:ListItem Value="Class1ID">6948</asp:ListItem>
+                                    <asp:ListItem Value="Class2ID">6953</asp:ListItem>
+                                    <asp:ListItem Value="Class3ID">0</asp:ListItem>
+                                    <asp:ListItem Value="InfoCount">6</asp:ListItem>
+                                    <asp:ListItem Value="OrderItem">InfoID</asp:ListItem>
+                                    <asp:ListItem Value="Order">asc</asp:ListItem>
+                                </asp:DropDownList>
+                                <asp:Repeater ID="InfoList_test22" runat="server">
+                                    <ItemTemplate>
+                                        <div class="contentItem">
+                                            <%# Eval("Content") %>
+                                        </div>
+                                    </ItemTemplate>
+                                </asp:Repeater>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menuRight">
+                        <div class="cutline"></div>
+                        <div class="recommand-title recommand-title-3">推荐阅读</div>
+                        <div class="pic-panel">
+                            <div class="pic-box">
+                                <div class="pic-item">
+                                    <a href="http://192.168.123.41/special/201706xueba/" target="_blank"><img src="./img/detail/green-auto-1.jpg" alt=""></a>
+                                </div>
+                                <div class="pic-item">
+                                    <a href="http://mp.weixin.qq.com/s?__biz=MjM5Mjc2MjUwMQ==&mid=2652111771&idx=1&sn=83533e47c01574dd93f781703a3fb7e4&chksm=bd41fc718a367567b6d3836eff7a1d71e390c3ad24bc2e0d4877fd774e6eb3e4fae74ff4c9f4&mpshare=1&scene=23&srcid=0717Zx3kTF0gU77BTGIt0eAJ#rd" target="_blank"><img src="./img/detail/green-auto-2.jpg" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="pic-control-holder">
+                                <ul class="pic-control">
+                                    <li class="active" data-index="0"></li>
+                                    <li data-index="1"></li>
+                                </ul>
+                                <div class="title-panel">
+                                    <ul class="title-list">
+                                        <li><a href="http://192.168.123.41/special/201706xueba/">学霸专题</a></li>
+                                        <li><a href="http://mp.weixin.qq.com/s?__biz=MjM5Mjc2MjUwMQ==&mid=2652111771&idx=1&sn=83533e47c01574dd93f781703a3fb7e4&chksm=bd41fc718a367567b6d3836eff7a1d71e390c3ad24bc2e0d4877fd774e6eb3e4fae74ff4c9f4&mpshare=1&scene=23&srcid=0717Zx3kTF0gU77BTGIt0eAJ#rd">西财隐藏美食地图！！</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="button button-right btn-r-g" btn-lr-index="7"></div>
+                        <div class="newMessageBox">
+                            <div class="new">
+                                <img src="./img/detail/new1.png" alt="">
+                                <p style="text-align:center;">19299509</p>
+                            </div>
+                            <div class="new">
+                                <img src="./img/detail/new2.png" alt="" style="margin-top: 10px">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="banner section4">
+                    <ul class="menuLeft color4">
+                        <li class="mtitle first-title-on-4" title-m-list="1">
+                            <img class="img2" src="./img/detail/blue-1.png" alt="">
+                            <span>乐居柳林</span>
+                            <div class="triangle triangleOn"></div>
+                        </li>
+                        <li class="mtitle" title-m-list="2">
+                            <img class="img2" src="./img/detail/blue-2.png" alt="">
+                            <span>漫游巴蜀</span>
+                            <div class="triangle"></div>
+                        </li>
+                        <li class="mtitle" title-m-list="3">
+                            <img class="img2" src="./img/detail/blue-3.png" alt="">
+                            <span>吃货必备</span>
+                            <div class="triangle"></div>
+                        </li>
+                        <li>
+                            <a href="./ebook.docx">
+                            <img class="img1" src="./img/detail/green_3.png" alt="">
+                            <span>下载电子版</span>
+                            <div class="triangle"></div>
+                        </a>
+                        </li>
+                        <div class="button button-left btn-g-left btn-l-b" btn-lr-index="3"></div>
+                    </ul>
+                    <ul class="article-list-holder">
+                        <li class="article-list-on article-list">
+                            <div class="article-list-title article-list-title-4">文章列表</div>
+                            <ul class="article-list-item">
+                                <li class="article-list-title-on" title-a-index="1">1. 安全防范</li>
+                                <li title-a-index="2">2. 银行</li>
+                                <li title-a-index="3">3. 医院就诊</li>
+                                <li title-a-index="4">4. 湿疹防治</li>
+                                <li title-a-index="5">5. 邮局快递</li>
+                                <li title-a-index="6">6. 校车时刻表</li>
+                                <li title-a-index="7">7. 水电缴纳</li>
+                                <li title-a-index="8">8. 洗衣缝纫</li>
+                                <li title-a-index="9">9. 电脑维修</li>
+                                <li title-a-index="10">10. 自行车</li>
+                                <li title-a-index="11">11. 打印店</li>
+                                <li title-a-index="12">12. 理发推荐</li>
+                                <li title-a-index="13">13. 超市集合</li>
+                                <li title-a-index="14">14. 书店集合</li>
+                                <li title-a-index="15">15. 水吧集合</li>
+                            </ul>
+                        </li>
+                        <li class="article-list">
+                            <div class="article-list-title article-list-title-4">文章列表</div>
+                            <ul class="article-list-item">
+                                <li class="article-list-title-on" title-a-index="1">1. 温江玩乐</li>
+                                <li title-a-index="2">2. 市区休闲</li>
+                                <li title-a-index="3">3. 成都周边</li>
+                                <li title-a-index="4">4. 四川风光</li>
+                            </ul>
+                        </li>
+                        <li class="article-list">
+                            <div class="article-list-title article-list-title-4">文章列表</div>
+                            <ul class="article-list-item">
+                                <li class="article-list-title-on" title-a-index="1">1. 校内食府</li>
+                                <li title-a-index="2">2. 校外美馔</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="content-panel content2">
+                        <div class="content-list-on content-list">
+                            <div class="word-list">
+                                <asp:DropDownList ID="InfoList_test31_Parameter" Visible="False" runat="server">
+                                    <asp:ListItem Value="BoardID">70</asp:ListItem>
+                                    <asp:ListItem Value="Class1ID">6949</asp:ListItem>
+                                    <asp:ListItem Value="Class2ID">6954</asp:ListItem>
+                                    <asp:ListItem Value="Class3ID">0</asp:ListItem>
+                                    <asp:ListItem Value="InfoCount">15</asp:ListItem>
+                                    <asp:ListItem Value="OrderItem">InfoID</asp:ListItem>
+                                    <asp:ListItem Value="Order">asc</asp:ListItem>
+                                </asp:DropDownList>
+                                <asp:Repeater ID="InfoList_test31" runat="server">
+                                    <ItemTemplate>
+                                        <div class="contentItem">
+                                            <%# Eval("Content") %>
+                                        </div>
+                                    </ItemTemplate>
+                                </asp:Repeater>
+                            </div>
+                        </div>
+                        <div class="content-list">
+                            <div class="word-list">
+                                <asp:DropDownList ID="InfoList_test32_Parameter" Visible="False" runat="server">
+                                    <asp:ListItem Value="BoardID">70</asp:ListItem>
+                                    <asp:ListItem Value="Class1ID">6949</asp:ListItem>
+                                    <asp:ListItem Value="Class2ID">6955</asp:ListItem>
+                                    <asp:ListItem Value="Class3ID">0</asp:ListItem>
+                                    <asp:ListItem Value="InfoCount">4</asp:ListItem>
+                                    <asp:ListItem Value="OrderItem">InfoID</asp:ListItem>
+                                    <asp:ListItem Value="Order">desc</asp:ListItem>
+                                </asp:DropDownList>
+                                <asp:Repeater ID="InfoList_test32" runat="server">
+                                    <ItemTemplate>
+                                        <div class="contentItem">
+                                            <%# Eval("Content") %>
+                                        </div>
+                                    </ItemTemplate>
+                                </asp:Repeater>
+                            </div>
+                        </div>
+                        <div class="content-list">
+                            <div class="word-list">
+                                <asp:DropDownList ID="InfoList_test33_Parameter" Visible="False" runat="server">
+                                    <asp:ListItem Value="BoardID">70</asp:ListItem>
+                                    <asp:ListItem Value="Class1ID">6949</asp:ListItem>
+                                    <asp:ListItem Value="Class2ID">6956</asp:ListItem>
+                                    <asp:ListItem Value="Class3ID">0</asp:ListItem>
+                                    <asp:ListItem Value="InfoCount">2</asp:ListItem>
+                                    <asp:ListItem Value="OrderItem">InfoID</asp:ListItem>
+                                    <asp:ListItem Value="Order">desc</asp:ListItem>
+                                </asp:DropDownList>
+                                <asp:Repeater ID="InfoList_test33" runat="server">
+                                    <ItemTemplate>
+                                        <div class="contentItem">
+                                            <%# Eval("Content") %>
+                                        </div>
+                                    </ItemTemplate>
+                                </asp:Repeater>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menuRight">
+                        <div class="cutline"></div>
+                        <div class="recommand-title recommand-title-4">推荐阅读</div>
+                        <div class="pic-panel">
+                            <div class="pic-box">
+                                <div class="pic-item">
+                                    <a href="http://mp.weixin.qq.com/s?__biz=MjM5Mjc2MjUwMQ==&mid=2652111877&idx=1&sn=b9f9a63b91d8def4ecfbcc87979616bc&chksm=bd41fbef8a3672f9a46bde522dfab6f7c368b5ceeb88222fa4463468deafffd1d53dd0dc8cda&mpshare=1&scene=23&srcid=0717ScjKVi7sfzs833pLBIuB#rd" target="_blank"><img src="./img/detail/blue-auto-1.jpg" alt=""></a>
+                                </div>
+                                <div class="pic-item">
+                                    <a href="http://mp.weixin.qq.com/s?__biz=MjM5Mjc2MjUwMQ==&mid=404476548&idx=1&sn=acf6247b115125157b2cb63f73fba979&scene=23&srcid=0719GJURwG2URXzky0iw8pU2#rd" target="_blank"><img src="./img/detail/blue-auto-2.jpg" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="pic-control-holder">
+                                <ul class="pic-control">
+                                    <li class="active" data-index="0"></li>
+                                    <li data-index="1"></li>
+                                </ul>
+                                <div class="title-panel">
+                                    <ul class="title-list">
+                                        <li><a href="http://mp.weixin.qq.com/s?__biz=MjM5Mjc2MjUwMQ==&mid=2652111877&idx=1&sn=b9f9a63b91d8def4ecfbcc87979616bc&chksm=bd41fbef8a3672f9a46bde522dfab6f7c368b5ceeb88222fa4463468deafffd1d53dd0dc8cda&mpshare=1&scene=23&srcid=0717ScjKVi7sfzs833pLBIuB#rd" target="_blank">请回答2017</a></li>
+                                        <li><a href="http://mp.weixin.qq.com/s?__biz=MjM5Mjc2MjUwMQ==&mid=2652111702&idx=1&sn=696ec2441f99ecf111711c70ae857bba&chksm=bd41fcbc8a3675aaf6651c4faa46e83e1403bbdc06c7bf784b800b328b759eb8e9b72fa03364&mpshare=1&scene=23&srcid=0717n6rzC7NE6h7jTv8nPR2W#rd" target="_blank">盘点 | 西财那些你不知道的事</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="button button-right btn-r-b" btn-lr-index="8"></div>
+                        <div class="newMessageBox">
+                            <div class="new">
+                                <img src="./img/detail/new1.png" alt="">
+                                <p style="text-align:center;">19299509</p>
+                            </div>
+                            <div class="new">
+                                <img src="./img/detail/new2.png" alt="" style="margin-top: 10px">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="banner" id="section5">
+                    <div class="button button-left btn-l-gr" btn-lr-index="4" style="margin-top: 210px"></div>
+                    <ul class="us-list">
+                        <li>
+                            <a href="http://ghy.cn/aboutus/index.html#1" target="_blank"><img src="./img/detail/info-icon.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="http://ghy.cn/aboutus/index.html#3" target="_blank"><img src="./img/detail/about-us-icon.png" alt="" style="margin-left: 5px;"></a>
+                        </li>
+                    </ul>
+                    <ul class="communicate-list">
+                        <li style="text-align: center;">
+                            <a href="http://weibo.com/ghycn" target="_blank"><img src="./img/detail/weibo-icon-2.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="http://mp.weixin.qq.com/s?__biz=MjM5Mjc2MjUwMQ==&mid=207093308&idx=1&sn=5e4104387f88dce040e93543bdf0ea4d&scene=18#wechat_redirect" target="_blank"><img src="./img/detail/weixin-icon.png" alt="" style="width: 100%;"></a>
+                        </li>
+                        <li>
+                            <a href="http://www.renren.com/331197091/profile?ref=opensearch_normal" target="_blank"><img src="./img/detail/renren-icon.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="http://user.qzone.qq.com/2044276328/" target="_blank"><img src="./img/detail/qzone-icon.png" alt=""></a>
+                        </li>
+                    </ul>
+                    <div class="footer">
+                        <img src="./img/detail/foot_logo.png" alt="">
+                        <div class="foot-wordbox">
+                            <p>Copyright 2010-2017 GHY.cn. All rights reserved. 蜀ICP备07004602号</p>
+                            <p>西南财经大学党委宣传统战部 前进动力工作室 TEL:028-87092700</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- javascript -->
+        <script type="text/javascript" src="js/detail/fullscreen.js?v=20160821"></script>
+        <script type="text/javascript" src="js/detail/jquery-2.2.4.js?v=20160821"></script>
+        <script type="text/javascript" src="js/detail/bannertune.js?v=20160821"></script>
+        <script type="text/javascript" src="js/detail/autoScroll.js?v=20160821"></script>
+        <script type="text/javascript" src="js/detail/left-menu.js?v=20160821"></script>
+        <script type="text/javascript" src="js/detail/navigator_slider.js?v=20160821"></script>
+        <script type="text/javascript" src="js/detail/creatnew.js?v=20160821"></script>
+        <script src="http://ghy.swufe.edu.cn/tongji.js"></script>
+    </form>
+</body>
+
+</html>

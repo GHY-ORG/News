@@ -1,0 +1,73 @@
+﻿body{
+	width:100%;	height: 100%;
+	overflow: hidden;
+	font-size: 14px;
+	font-family: 微软雅黑;
+}
+/*------------------pictureHolder & pictureList---------------------*/
+.bannerHolder{
+	width: auto;	height: 100%;
+	overflow: hidden;
+	top: 0;
+}
+.bannerList{
+	width: 500%;	height: 100%;
+	transition: left 1s;
+	position: absolute;
+	left: 0;
+}
+.bannerList::after{
+	content:".";
+	width: 0;	height: 0;
+	display: block;
+	visibility: hidden;
+	clear: both;
+}
+.bannerList li{
+	width: 20%;	height: 100%;
+	display: block;
+	float: left;
+	background-position: center;
+    background-size: cover;
+    transition: 0.1s linear;
+}
+/*------------------each section---------------------*/
+.section1{
+    background-image: url(../../img/index/1.jpg);
+}
+.section2{
+    background-image: url(../../img/index/2.jpg);
+}
+.section3{
+    background-image: url(../../img/index/3.jpg);
+}
+.section4{
+    background-image: url(../../img/index/4.jpg);
+}
+.section5{
+    background-image: url(../../img/index/5.jpg);
+}
+/*------------------<a> holder---------------------*/
+.link_holder{
+	width: 16%;	height:63px;
+	background-color: rgba(255,255,255,0.3);
+	position: relative;
+	display: block;
+	left: 42%;	top: 82%;
+	border-radius: 8px;
+}
+.link_holder:hover{
+	background-color: rgba(255,255,255,0.6);
+}
+.link_holder a{
+	width: 100%;	height: 100%;
+	display: block;
+}
+#cyxc{
+	/*--background:url(../../img/index/cyxc-btn.png);--*/
+	background-size: 100% 100%;
+}
+#ckxq{
+	background:url(../../img/index/ckxq.png);
+	background-size: 100% 100%;
+}
